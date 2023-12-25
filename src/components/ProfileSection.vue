@@ -38,10 +38,20 @@ function openInNewTab (url) {
   padding: 2rem;
 }
 
+@media screen and (max-width: 1023px) {
+  .profile-container {
+  margin-right: 50px;
+  width: 300px;
+  padding: 2rem;
+  position: relative;
+  z-index: 0;
+}
+}
+
 .circle {
   height: 150px;
   width: 150px;
-  background-color: wheat;
+  background-image: url("../../Keon.png");
   background-size: cover;
   background-position-x: -20px;
   background-repeat: no-repeat;
