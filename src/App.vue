@@ -1,17 +1,17 @@
 <script setup>
-
+import LeftProfile from './components/LeftProfile.vue';
+import ProfileSection from './components/ProfileSection.vue';
 </script>
 
 <template>
   <header>
-    <h1>Keon Jukes</h1>
+   <profile-section />
   </header>
 
   <main>
-    <p>Welcome to my laboratory</p>
+    <left-profile />
   </main>
 </template>
 
 <style scoped>
-
 </style>
