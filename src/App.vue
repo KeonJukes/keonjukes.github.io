@@ -1,5 +1,5 @@
 <script setup>
-import LeftProfile from './components/LeftProfile.vue';
+import RightProfile from './components/RightProfile.vue';
 import ProfileSection from './components/ProfileSection.vue';
 </script>
 
@@ -9,7 +9,7 @@ import ProfileSection from './components/ProfileSection.vue';
   </header>
 
   <main>
-    <left-profile />
+    <right-profile />
   </main>
 </template>
 

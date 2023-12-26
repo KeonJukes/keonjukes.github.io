@@ -4,6 +4,6 @@ export const projects = [
       title: 'Test Project',
       description: 
       'Test project that I built',
-       technologies: ['React', 'TypeScript', 'JavaScript', 'SCSS']
+       technologies: ['React', 'TypeScript', 'JavaScript']
     },
   ]

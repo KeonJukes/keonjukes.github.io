@@ -29,8 +29,8 @@ import BadgeComponent from '../BadgeComponent.vue';
         <h2 class="project-title">{{ title }}</h2>
         <p class="project-description">{{ description }}</p>
         <div class="project-badges-container">
-            <span v-for="badge in projectBadges" :key="badge.name">
-            <badge-component :badge="badge"/>
+            <span v-for="badge in projectBadges" :key="badge">
+            <badge-component :badge-title="badge"/>
             </span>
         </div>
     </div>

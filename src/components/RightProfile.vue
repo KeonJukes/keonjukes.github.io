@@ -5,7 +5,7 @@ import ExperienceSection from './experiences/ExperienceSection.vue';
 </script>
 
 <template>
-  <div class="left-profile">
+  <div class="right-profile">
     <biography-section />
     <br />
     <experience-section />
@@ -15,7 +15,7 @@ import ExperienceSection from './experiences/ExperienceSection.vue';
 </template>
 
 <style scoped>
-.left-profile {
+.right-profile {
   text-align: center;
 }
 </style>

@@ -39,8 +39,8 @@
         <h3 class="experience-title">{{ title }}</h3>
         <p class="experience-description">{{ description }}</p>
         <div class="experience-badges-container">
-            <span v-for="badge in experienceBadges" :key="badge.name">
-            <badge-component :badge="badge"/>
+            <span v-for="badge in experienceBadges" :key="badge">
+            <badge-component :badge-title="badge"/>
             </span>
         </div>
     </div>

@@ -1,7 +1,9 @@
 <script setup>
+    import { badges } from '../badges'
+
     defineProps({
-        badge: {
-            type: Object,
+        badgeTitle: {
+            type: String,
             required: true
         }
     })
@@ -9,8 +11,8 @@
 
 <template>
     <div class="badge-container">
-        {{ badge.name }}
-        <span class="tooltiptext">{{ badge.description }}</span>
+        {{ badgeTitle }}
+        <span class="tooltiptext">{{ badges[badgeTitle]['description'] }}</span>
     </div>
 </template>
 
@@ -63,7 +65,4 @@
 .badge-container:hover .tooltiptext {
     visibility: visible;
 }
-
-
-
 </style>
