@@ -1,6 +1,6 @@
 <script setup>
-import BiographySection from './BiographySection.vue';
-import ExperienceSection from './experiences/ExperienceSection.vue';
+import BiographySection from './BiographySection.vue'
+import ExperienceSection from './experiences/ExperienceSection.vue'
 // import ProjectsSection from './projects/ProjectsSection.vue';
 </script>
 

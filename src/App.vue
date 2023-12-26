@@ -1,11 +1,11 @@
 <script setup>
-import RightProfile from './components/RightProfile.vue';
-import ProfileSection from './components/ProfileSection.vue';
+import RightProfile from './components/RightProfile.vue'
+import ProfileSection from './components/ProfileSection.vue'
 </script>
 
 <template>
   <header>
-   <profile-section />
+    <profile-section />
   </header>
 
   <main>
@@ -13,5 +13,4 @@ import ProfileSection from './components/ProfileSection.vue';
   </main>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

@@ -1,58 +1,58 @@
 <script setup>
-    import { badges } from '../badges'
+import { badges } from '../badges'
 
-    defineProps({
-        badgeTitle: {
-            type: String,
-            required: true
-        }
-    })
+defineProps({
+  badgeTitle: {
+    type: String,
+    required: true
+  }
+})
 </script>
 
 <template>
-    <div class="badge-container">
-        {{ badgeTitle }}
-        <span class="tooltiptext">{{ badges[badgeTitle]['description'] }}</span>
-    </div>
+  <div class="badge-container">
+    {{ badgeTitle }}
+    <span class="tooltiptext">{{ badges[badgeTitle]['description'] }}</span>
+  </div>
 </template>
 
 <style scoped>
 .badge-container {
-    height: 25px;
-    width: 100px;
-    border-radius: 30px;
-    background-color: purple;
-    text-align: center;
-    margin: 2px;
-    color: white;
-    position: relative;
-    display: inline-block;
+  height: 25px;
+  width: 100px;
+  border-radius: 30px;
+  background-color: purple;
+  text-align: center;
+  margin: 2px;
+  color: white;
+  position: relative;
+  display: inline-block;
 }
 
 .badge-container:hover {
-    background-color: #8dc931;
-    color: white;
+  background-color: #8dc931;
+  color: white;
 }
 
 .badge-container .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
 
-    /* Position the tooltip text */
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -60px;
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 .badge-container .tooltiptext::after {
-  content: " ";
+  content: ' ';
   position: absolute;
   top: 100%; /* At the bottom of the tooltip */
   left: 50%;
@@ -63,6 +63,6 @@
 }
 
 .badge-container:hover .tooltiptext {
-    visibility: visible;
+  visibility: visible;
 }
 </style>

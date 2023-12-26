@@ -1,6 +1,6 @@
 <script setup>
-import ProjectCard from './ProjectCard.vue';
-import { projects } from './Projects';
+import ProjectCard from './ProjectCard.vue'
+import { projects } from './Projects'
 
 const projectList = projects
 </script>
@@ -10,15 +10,19 @@ const projectList = projects
     <h2 class="projects-title">Projects</h2>
     <br />
     <div v-for="project in projectList" :key="project.title">
-      <project-card :title="project.title" :photo="project.photo" :description="project.description" :project-badges="project.technologies"/>
+      <project-card
+        :title="project.title"
+        :photo="project.photo"
+        :description="project.description"
+        :project-badges="project.technologies"
+      />
       <br />
     </div>
   </div>
-
 </template>
 
 <style scoped>
 .projects-title {
-    color: #8dc931
+  color: #8dc931;
 }
 </style>
