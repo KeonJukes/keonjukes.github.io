@@ -8,7 +8,12 @@ export const experiences = [
     'Developing high quality user interfaces for both internal and customer facing projects.\
      I currently am working on Dolby.io\'s Real-Time Streaming Dashboard to deliver a intuitive\
      experience for customers.',
-     technologies: ['React', 'TypeScript', 'Vue', 'JavaScript', 'SCSS', 'Material UI', 'Bootstrap', 'Keycloak']
+     technologies: 
+      [
+        {name: 'React', description: 'JS Library'}, {name: 'TypeScript', description: 'Superset of JS'}, {name: 'Vue', description: 'JS Library'},
+        {name: 'JavaScript', description: 'Programming Language'}, {name: 'Material UI', description: 'Component Library'}, {name: 'Bootstrap', description: 'Front-end Framework'},
+        {name: 'Keycloak', description: 'Identity and Access Management Solution'}
+      ]
   },
   {
     title: 'Sales Representative',

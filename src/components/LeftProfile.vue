@@ -16,7 +16,6 @@ import ExperienceSection from './experiences/ExperienceSection.vue';
 
 <style scoped>
 .left-profile {
-  height: 100vh;
   text-align: center;
 }
 </style>

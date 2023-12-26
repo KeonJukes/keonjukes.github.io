@@ -71,6 +71,7 @@ function openInNewTab (url) {
 .thunderbolt {
     display: flex;
     margin-top: -55px;
+    width: 50px;
 }
 .thunderbolt .shape1 {
     position: relative;
@@ -78,7 +79,7 @@ function openInNewTab (url) {
     height: 0;
     border-bottom: 60px solid purple;
     border-left: 30px solid transparent;
-    transform: skewX(-25deg) translate(-50%, -50%)
+    transform: skewX(333deg) translate(-50%, -50%);
 }
 
 .thunderbolt .shape1::before {
@@ -90,6 +91,24 @@ function openInNewTab (url) {
     height: 0;
     border-top: 60px solid purple;
     border-right: 30px solid transparent;
+}
+
+.thunderbolt:hover {
+  &.thunderbolt .shape1 {
+    border-bottom: 60px solid #8dc931;
+    animation-name: thunderbolt-strike;
+    animation-duration: 1s;
+  }
+
+  &.thunderbolt .shape1::before {
+    border-top: 60px solid #8dc931;
+}
+}
+
+@keyframes thunderbolt-strike {
+  0% {transform: skewX(-25deg) translate(-50%, -50%);}
+  50% {transform: skewX(-35deg) translate(-50%, -50%);}
+  100% {transform: skewX(-25deg) translate(-50%, -50%);}
 }
 
 .robot-icon {
