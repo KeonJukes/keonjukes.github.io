@@ -117,4 +117,10 @@ function openInNewTab (url) {
 .social-icon:hover {
   color: #8dc931;
 }
+
+@media (prefers-color-scheme: light) {
+  .social-icon {
+  color: #2C3E50;
+}
+}
 </style>

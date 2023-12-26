@@ -3,7 +3,7 @@
 
 <template>
   <div class="biography-container">
-  <h3 class="biography-section">About</h3>
+  <h2 class="biography-section">About</h2>
   <br />
   <p class="biography-text">
      During 2020's suprise pandemic I decided to make a transition from sales to software engineering.

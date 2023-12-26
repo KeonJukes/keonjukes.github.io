@@ -7,7 +7,7 @@ const projectList = projects
 
 <template>
   <div>
-    <h3 class="projects-title">Projects</h3>
+    <h2 class="projects-title">Projects</h2>
     <br />
     <div v-for="project in projectList" :key="project.title">
       <project-card :title="project.title" :photo="project.photo" :description="project.description" :project-badges="project.technologies"/>

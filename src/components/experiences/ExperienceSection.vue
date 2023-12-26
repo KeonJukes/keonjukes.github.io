@@ -6,7 +6,7 @@ const experienceList = experiences
 </script>
 
 <template>
-  <h3 class="experience-title">Experience</h3>
+  <h2 class="experience-title">Experience</h2>
   <br />
   <div v-for="experience in experienceList" :key="experience.company">
   <span>
