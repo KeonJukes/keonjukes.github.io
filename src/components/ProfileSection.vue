@@ -22,8 +22,8 @@ function openInNewTab(url) {
       </h2>
     </span>
     <p class="profile-p">
-      I am a frontend focused software engineer, trained in fullstack web development, and currently
-      work for Dolby.io helping deliver great user interfaces (UI) to customers all around the
+      I am a frontend focused software engineer currently
+      working for Dolby.io where I help deliver great user interfaces (UI) and user experiences (UX) to customers all around the
       world.
     </p>
     <div class="profile-contact">
