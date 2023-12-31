@@ -2,6 +2,7 @@
 import RobotIcon from './icons/RobotIcon.vue'
 import GithubIcon from './icons/GithubIcon.vue'
 import LinkedInIcon from './icons/LinkedInIcon.vue'
+import BehanceIcon from './icons/BehanceIcon.vue'
 
 function openInNewTab(url) {
   window.open(url, '_blank', 'noreferrer')
@@ -32,6 +33,7 @@ function openInNewTab(url) {
         @click="openInNewTab('https://linkedin.com/in/keon-jukes')"
       />
       <github-icon class="social-icon" @click="openInNewTab('https://github.com/KeonJukes')" />
+      <behance-icon class="social-icon" @click="openInNewTab('https://www.behance.net/keonjukes')"/>
     </div>
   </div>
 </template>
