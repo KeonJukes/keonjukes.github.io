@@ -108,6 +108,7 @@ function openInNewTab(url) {
     border-bottom: 60px solid #8dc931;
     animation-name: thunderbolt-strike;
     animation-duration: 1s;
+    animation-timing-function: linear;
   }
 
   &.thunderbolt .shape1::before {
@@ -117,13 +118,13 @@ function openInNewTab(url) {
 
 @keyframes thunderbolt-strike {
   0% {
-    transform: skewX(-25deg) translate(-50%, -50%);
+    transform: skewX(333deg) translate(-50%, -50%);
   }
   50% {
-    transform: skewX(-35deg) translate(-50%, -50%);
+    transform: skewX(350deg) translate(-50%, -50%);
   }
   100% {
-    transform: skewX(-25deg) translate(-50%, -50%);
+    transform: skewX(333deg) translate(-50%, -50%);
   }
 }
 
