@@ -25,6 +25,6 @@ export const experiences = [
     endDate: 'January 2021',
     description:
       'Sold and conducted demos for the Oculus Quest VR headsets in retail stores.\
-     Exceeded monthly and weekly sales goals to meet Holiday goals.'
+     Exceeded monthly and weekly sales targetsß to meet Holiday goals.'
   }
 ]
