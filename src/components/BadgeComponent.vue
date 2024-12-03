@@ -68,30 +68,30 @@ defineProps({
 
 @media (prefers-color-scheme: dark) {
   .badge-container .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: #fff;
-  color: black;
-  text-align: center;
-  padding: 5px;
-  border-radius: 6px;
+    visibility: hidden;
+    width: 120px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
 
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
 
-.badge-container .tooltiptext::after {
-  content: ' ';
-  position: absolute;
-  top: 100%; 
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #fff transparent transparent transparent;
-}
+  .badge-container .tooltiptext::after {
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+  }
 }
 </style>
