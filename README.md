@@ -1,6 +1,6 @@
 # keon-jukes-portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+My personal portfolio which shall house my experiences and projects which I develop.
 
 ## Recommended IDE Setup
 

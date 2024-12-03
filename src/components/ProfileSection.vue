@@ -24,8 +24,7 @@ function openInNewTab(url) {
     </span>
     <p class="profile-p">
       I am a frontend focused software engineer currently
-      working for Dolby.io where I help deliver great user interfaces (UI) and user experiences (UX) to customers all around the
-      world.
+      working for Dolby Laboratories. As of recent, I was transitioned to the role of a solutions engineer where I help with the tecnical portion of closing sales.
     </p>
     <div class="profile-contact">
       <linked-in-icon
@@ -34,6 +33,22 @@ function openInNewTab(url) {
       />
       <github-icon class="social-icon" @click="openInNewTab('https://github.com/KeonJukes')" />
       <behance-icon class="social-icon" @click="openInNewTab('https://www.behance.net/keonjukes')"/>
+    </div>
+    <br />
+    <div>
+      <h2>Education</h2>
+      <div class="education-container">
+        <span>
+          Fullstack Academy <br>
+          <em>Software Engineering</em><br>
+          <h5>February 2021 - May 2021</h5>
+        </span>
+        <span>
+          Bloomfield College <br>
+          <em>BA - Business Marketing</em><br>
+          <h5>August 2014 - December 2018</h5>
+        </span>
+      </div>
     </div>
   </div>
 </template>
@@ -158,5 +173,11 @@ function openInNewTab(url) {
   .social-icon {
     color: #2c3e50;
   }
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 </style>
