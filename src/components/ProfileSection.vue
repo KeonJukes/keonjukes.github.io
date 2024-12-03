@@ -12,9 +12,9 @@ function openInNewTab(url) {
 <template>
   <div class="profile-container">
     <span class="circle"></span>
-    <div class="thunderbolt">
+    <!-- <div class="thunderbolt">
       <div class="shape1"></div>
-    </div>
+    </div> -->
     <h1 class="profile-header-1">Keon Jukes</h1>
     <span>
       <h2>
@@ -80,9 +80,10 @@ function openInNewTab(url) {
 .circle {
   height: 150px;
   width: 150px;
-  background-image: url('../../Keon.png');
+  background-image: url('../../Keon.jpg');
   background-size: cover;
-  background-position-x: -20px;
+  background-position-x: 0px;
+  background-position-y: -20px;
   background-repeat: no-repeat;
   border-radius: 50%;
   display: inline-block;
