@@ -60,7 +60,6 @@ function openInNewTab(url) {
 <style scoped>
 .profile-container {
   margin-right: 50px;
-  position: fixed;
   z-index: 2;
   width: 300px;
   top: 0;
@@ -80,7 +79,7 @@ function openInNewTab(url) {
 .circle {
   height: 150px;
   width: 150px;
-  background-image: url('../../Keon.jpg');
+  background-image: url('../../Keon-profile-photo.jpg');
   background-size: cover;
   background-position-x: 0px;
   background-position-y: -20px;
