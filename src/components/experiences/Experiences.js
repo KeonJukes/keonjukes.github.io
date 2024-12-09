@@ -1,15 +1,5 @@
 export const experiences = [
   {
-    title: 'Solutions Engineer',
-    company: 'Dolby Laboratories',
-    startDate: 'November 2024',
-    endDate: null,
-    description:
-      "I am primarily tasked with helping Account Executives close deals by acting as a technical advisor to\
-      potential customers, showing them how to encorporate Dolby's Millicast, Dolby X THEOLive, and Dolby X THEOPlayer products into their\
-      tech stack."
-  },
-  {
     title: 'Associate Software Engineer',
     company: 'Dolby Laboratories',
     startDate: 'September 2022',

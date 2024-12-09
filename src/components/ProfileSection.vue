@@ -22,11 +22,9 @@ function openInNewTab(url) {
         <robot-icon class="robot-icon" />
       </h2>
     </span>
-    <p class="profile-p">
-      I am a frontend focused software engineer currently working for Dolby Laboratories. As of
-      recent, I was transitioned to the role of a solutions engineer where I help with the tecnical
-      portion of closing sales.
-    </p>
+    <!-- <p class="profile-p">
+      I am a frontend focused software engineer
+    </p> -->
     <div class="profile-contact">
       <linked-in-icon
         class="social-icon"
