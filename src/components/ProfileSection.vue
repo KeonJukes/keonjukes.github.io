@@ -19,7 +19,7 @@ function openInNewTab(url) {
     <span>
       <h2>
         Software Engineer
-        <robot-icon class="robot-icon" />
+        <!-- <robot-icon class="robot-icon" /> -->
       </h2>
     </span>
     <!-- <p class="profile-p">
