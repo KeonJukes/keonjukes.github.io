@@ -3,10 +3,10 @@ export const experiences = [
     title: 'Associate Sales Engineer - SMB, Streaming',
     company: 'Dolby Laboratories',
     startDate: 'November 2024',
-    endDate: 'Present',
+    endDate: 'August 2025',
     description:
-      'In this role, I assist Account Executives by answering technical questions, developing demos, and helping prospective\
-      customers integrate Dolby streaming technology into their product(s). I also help the SDRs with technical questions they\
+      'In this role, I assisted Account Executives (AEs) by answering technical questions, developing demos, and helping prospective\
+      customers integrate Dolby streaming technology into their product(s). I also helped Sales Development Representatives (SDRs) with technical questions they\
       get from leads they are prospecting.'
   },
   {
