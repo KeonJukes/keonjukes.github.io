@@ -47,7 +47,7 @@ function openInNewTab(url) {
         </span>
         <span>
           Bloomfield College <br />
-          <em>BA - Business Marketing</em><br />
+          <em>B.S. in Business Marketing</em><br />
           <h5>August 2014 - December 2018</h5>
         </span>
       </div>
