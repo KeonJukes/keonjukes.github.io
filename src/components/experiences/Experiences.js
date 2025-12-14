@@ -13,7 +13,7 @@ export const experiences = [
     startDate: 'September 2022',
     endDate: 'November 2024',
     description:
-      'Developed and optimized customer-facing and internal applications, primarily focusing on enhancing usability and design consistency for the Dolby.io Millicast\
+      'Developed and optimized internal and customer-facing applications, primarily focusing on enhancing usability and design consistency for the Dolby.io Millicast\
        Real-Time Streaming (RTS) Dashboard using React and TypeScript primarily.',
     technologies: [
       'React',
