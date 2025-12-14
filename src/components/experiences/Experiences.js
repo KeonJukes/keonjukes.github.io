@@ -5,9 +5,7 @@ export const experiences = [
     startDate: 'November 2024',
     endDate: 'August 2025',
     description:
-      'In this role, I assisted Account Executives (AEs) by answering technical questions, developing demos, and helping prospective\
-      customers integrate Dolby streaming technology into their product(s). I also helped Sales Development Representatives (SDRs) with technical questions they\
-      get from leads they are prospecting.'
+      'Partnered with Account Executives and SDRs as a technical subject matter helper, developing custom demos and guiding prospective customers through complex Dolby streaming integrations.'
   },
   {
     title: 'Associate Software Engineer',
@@ -15,9 +13,8 @@ export const experiences = [
     startDate: 'September 2022',
     endDate: 'November 2024',
     description:
-      'Developed high quality user interfaces (UI) and user experiences (UX) for both internal and customer-facing applications.\
-     I primarily worked on the Dolby.io Millicast Real-Time Streaming (RTS) Dashboard product to deliver a intuitive\
-     experience to all customers.',
+      'Developed and optimized customer-facing and internal applications, primarily focusing on enhancing usability and design consistency for the Dolby.io Millicast\
+       Real-Time Streaming (RTS) Dashboard using React and TypeScript primarily.',
     technologies: [
       'React',
       'TypeScript',
@@ -34,7 +31,7 @@ export const experiences = [
     startDate: 'September 2020',
     endDate: 'January 2021',
     description:
-      'Sold and conducted demonstrations for the Oculus Quest 2 VR headsets in retail stores.\
-     I exceeded monthly and weekly sales targets to meet Holiday goals.'
+      'Facilitated immersive product demonstrations for Oculus Quest 2 VR headsets, consistently exceeding weekly and monthly sales\
+       quotas during the high-volume holiday season.'
   }
 ]
