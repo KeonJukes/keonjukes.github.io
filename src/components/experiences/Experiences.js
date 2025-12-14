@@ -5,7 +5,7 @@ export const experiences = [
     startDate: 'November 2024',
     endDate: 'August 2025',
     description:
-      'Partnered with Account Executives and SDRs as a technical subject matter helper, developing custom demos and guiding prospective customers through complex Dolby streaming integrations.'
+      'Partnered with Account Executives and SDRs as a technical subject matter advisor, developing custom demos and guiding prospective customers through complex Dolby streaming integrations.'
   },
   {
     title: 'Associate Software Engineer',
