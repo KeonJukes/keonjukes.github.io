@@ -31,7 +31,7 @@ export const experiences = [
     startDate: 'September 2020',
     endDate: 'January 2021',
     description:
-      'Facilitated immersive product demonstrations for Oculus Quest 2 VR headsets, consistently exceeding weekly and monthly sales\
+      'Facilitated immersive product demonstrations for multiple Oculus VR headset models, consistently exceeding weekly and monthly sales\
        quotas during the high-volume holiday season.'
   }
 ]
