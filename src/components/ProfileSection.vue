@@ -18,7 +18,7 @@ function openInNewTab(url) {
     <h1 class="profile-header-1">Keon Jukes</h1>
     <span>
       <h2>
-        Design Engineer
+        Software Engineer
         <!-- <robot-icon class="robot-icon" /> -->
       </h2>
     </span>
